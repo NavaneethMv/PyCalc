@@ -1,7 +1,7 @@
 from tkinter import * 
 
 app = Tk()
-app.geometry("430x460")
+app.geometry("430x540")
 app.title("pycalc")
 
 entry = Entry(app, font = ('Cantarell 20')).place(x=0, y=100, height=100, width=430) # height is below and width is horizontal
@@ -22,6 +22,9 @@ b_plus = Button(app, text = "+", font=('Cantarell 20')).place(x = 345, y = 290, 
 b_minus = Button(app, text = "-", font=('Cantarell 20')).place(x = 5, y = 375, height=80, width=80)
 b_product = Button(app, text = "x", font=('Cantarell 20')).place(x = 90, y = 375, height=80, width=80)
 b_divide = Button(app, text = "/", font=('Cantarell 20')).place(x = 175, y = 375, height=80, width=80)
+b_clear = Button(app, text = "C", font=('Cantarell 20')).place(x = 5, y = 460, height=80, width=80)
+b_equal = Button(app, text = "=", font=('Cantarell 20')).place(x = 245, y = 460, height=80, width=180)
+b_back = Button(app, text = "B", font=('Cantarell 20')).place(x = 90, y = 460, height=80, width=150)
 
 
 
